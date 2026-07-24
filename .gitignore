@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python environment and cache
+.NanoVision_Venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local model and generated outputs
+*.pt
+runs/
+*.mp3
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+
+# certificates
+certs/
